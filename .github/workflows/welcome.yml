@@ -1,5 +1,8 @@
 name: Post welcome comment
-on: 
+on:
+  push:
+    branches:
+      - main
   pull_request: 
     types: [opened]
 permissions: 
